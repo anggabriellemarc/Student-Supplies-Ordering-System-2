@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Supplies Ordering System</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-slate-100 min-h-screen">
+
+    <header class="bg-indigo-900 text-white p-6">
+        <h1 class="text-3xl font-bold text-center">
+            Student Supplies Ordering System
+        </h1>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-6">
+
+        <section class="bg-white rounded-xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">
+                Available Products
+            </h2>
+            <div id="product-list"></div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">
+                Shopping Cart
+            </h2>
+            <div id="cart"></div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">
+                Order Summary
+            </h2>
+            <div id="order-summary"></div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4">
+                Cash Payment
+            </h2>
+            <div id="payment"></div>
+        </section>
+
+        <section class="bg-white rounded-xl shadow p-6">
+            <h2 class="text-2xl font-bold mb-4">
+                Digital Receipt
+            </h2>
+            <div id="receipt"></div>
+        </section>
+
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
